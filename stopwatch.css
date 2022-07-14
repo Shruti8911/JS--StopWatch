@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(to bottom,rgb(27, 1, 104),rgb(5, 10, 12), rgb(5, 10, 12)) ;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+#container{
+    color: white;
+}
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+}
+.text{
+    font-size: 40px;
+    font-weight: bold;
+}
+#btn-container{
+    text-align: center;
+}
+.btn{
+    padding: 13px 36px;
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 25px;
+    cursor: pointer;
+    transition:0.5s ease-in-out ;
+    background: linear-gradient(rgb(48, 1, 1),rgb(128, 60, 60), rgb(243, 8, 8));
+}
+.btn:hover{
+    /* background:linear-gradient(to right,rgb(8, 1, 32),blue, skyblue) ; */
+    background:linear-gradient(to right,rgb(228, 8, 8),rgb(223, 61, 61), rgb(236, 176, 176)) ;
+    color: white;
+    border: 1px solid rgb(16, 1, 26);
+}
